@@ -10,6 +10,8 @@
     --black:#1F1F1F;
 }
 
+
+
 *{
     margin: 0;
     padding: 0;
@@ -26,11 +28,13 @@
 
 .c-content{
     margin-top: 2.3rem;
+    width: 100%;
 }
 
 .cards{
     display: flex;
     gap: 0.75rem;
+    padding: 6rem;
 }
 
 .title{
@@ -104,7 +108,7 @@
     color: var(--pink);
 }
 
-#card-item{
-    position: absolute;
-    margin-left: 10.1rem;
+.card-item{
+    /* position: absolute;
+    margin-left: 10.1rem; */
 }

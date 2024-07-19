@@ -7,7 +7,7 @@ import foneDeOuvido from "../../assets/foneDeOuvido.png"
 function Colecao() {
 
   return (
-    <>
+
       <section className="container_colecao">
         <div className="c-content">
 
@@ -16,7 +16,7 @@ function Colecao() {
           <div className="cards">
 
             <div className="card-01">
-              <img id="card-item" src={supremeBlusa} alt="" />
+              
               <div className="content-card">
                 <BotaoDesconto
                   title="30% OFF"
@@ -26,10 +26,12 @@ function Colecao() {
                   title="Comprar"
                 />
               </div>
+              <img className="card-item" src={supremeBlusa} alt="" />
+
             </div>
 
             <div className="card-01">
-              <img id="card-item" src={adidasSapato} alt="" />
+    
               <div className="content-card">
                 <BotaoDesconto
                   title="30% OFF"
@@ -40,11 +42,11 @@ function Colecao() {
                   title="Comprar"
                 />
               </div>
+                        <img className="card-item" src={adidasSapato} alt="" />
             </div>
 
             <div className="card-01">
-              <img id="card-item" src={foneDeOuvido} alt="" />
-              <div className="content-card">
+             <div className="content-card">
                 <BotaoDesconto
                   title="30% OFF"
                 />
@@ -53,13 +55,14 @@ function Colecao() {
                 <CompraBotao
                   title="Comprar"
                 />
-              </div>
+              </div>   
+              <img className="card-item" src={foneDeOuvido} alt="" />
+            
             </div>
 
           </div>
         </div>
       </section>
-    </>
   )
 }
 

@@ -4,9 +4,10 @@ function CompraBotao(props) {
 
   return (
     <>  
-        <div id='btn-compra'>
+        <a href='#' id='btn-compra'>
           <p id='btn-title-compra'>{props.title}</p>
-        </div>
+        </a>
+        
     </>
   )
 }
