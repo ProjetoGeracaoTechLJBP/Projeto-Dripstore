@@ -1,4 +1,4 @@
-import "./footer.css"
+import "./Footer.css"
 import logo from "../../assets/logo.png"
 import twetter from "../../assets/twetter.png"
 import instagram from "../../assets/instagram.png"
