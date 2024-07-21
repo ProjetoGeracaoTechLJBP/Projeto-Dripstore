@@ -8,6 +8,7 @@
     --pink: #C92071;
     --light-grey: #8F8F8F;
     --black:#1F1F1F;
+    --blue-secondary: #B5B6F2;
 }
 
 
@@ -24,17 +25,20 @@
     flex-direction: column;
     width: 100%;
     align-items: center;
+    gap: 6.2rem;
 }
 
 .c-content{
+    width: 90%;
     margin-top: 2.3rem;
-    width: 100%;
 }
 
 .cards{
     display: flex;
     gap: 0.75rem;
-    padding: 6rem;
+    justify-content: center;
+    margin: 2rem;
+
 }
 
 .title{
@@ -42,23 +46,35 @@
     font-size: 1.5rem;
     font-weight: 700;
     letter-spacing: 0.75px;
+    margin-left: 2rem;
 }
 
 
-.card-01{
-    display: flex;
-    width: 25.3rem;
-    height: 15.6rem;
+.card{
+    height: 14rem;
+    width: 25rem;
     background-color: var(--aqua-blue);
     border-radius: 8px;
-    position: relative;
+    display: flex;
+    background-image: url('../../assets/blusaSupreme.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
 }
 
-.content-card{
+.title-card{
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 2.25rem;
+    width: 12rem;
+    margin-bottom: 1.2rem;
+    margin-top: 0.6rem;
+}
+
+.texts-card{
     margin-left: 1.8rem;
     display: flex;
     flex-direction: column;
-    position: relative;
     justify-content: center;
 }
 
@@ -70,45 +86,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-#bn-title-discount{
-    font-size: 0.8rem;
     font-weight: 700;
-    color: var(--dark-grey2);
-}
-
-.title-card{
-    font-size: 2rem;
-    font-weight: 700;
-    color: var(--black);
-    width: 10.7rem;
-    margin-top: 0.6rem;
-    display: flex;
-}
-
-.title-card beats-bass{
-
+    color: var(--dark-grey);
 }
 
 #btn-compra{
-    margin-top: 0.6rem;
+    display: flex;
     width: 9.5rem;
     height: 3rem;
     background-color: white;
     border-radius: 8px;
-    display: flex;
     justify-content: center;
     align-items: center;
-}
-
-#btn-title-compra{
+    text-decoration: none;
     font-size: 1rem;
-    font-weight: 600;
     color: var(--pink);
+    font-weight: 700;
+    cursor: pointer;
 }
 
-.card-item{
-    /* position: absolute;
-    margin-left: 10.1rem; */
+#btn-compra:hover{
+    background-color: var(--blue-secondary);
+    color: white;
 }
