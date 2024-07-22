@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import Footer from '../Components/Footer/Footer'
-import Produtos from '../Components/Produtos/Produtos'
+import ProdutosNike from '../Components/ProdutosNike/ProdutosNike'
 function HomePage() {
 
   return (
     <>
-      <Produtos></Produtos>
+      <ProdutosNike></ProdutosNike>
 {/*       <Footer></Footer>
  */}
     </>

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+#Sect-main {
+    background-color: aqua;
+    height: 38rem;
+    display: flex;
+    align-items: start;
+}
+
+
+#Sect-TenisAndInformation {
+    display: flex;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 30rem;
+}
+
+/* teste */
+
+.carousel {
+    background-color: var(--light-gray-4);
+    width: 100vw;
+    height: 76.67vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel .carousel-indicators button {
+    display: none;
+}
+
+.carousel-item-row{
+    width: 100%;
+    height: 76.67vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel .carousel-inner .imagem-ilustrativa {
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.imagem-ilustrativa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#carouselExampleDark {
+    border: 3px solid red;
+    width: 40rem;
+    height: 30rem;
+    background-color: #E2E3FF;
+}
+
+.imagem-ilustrativa > img {
+    width: 25rem;
+}
+
+
+#Information-Product {
+    margin: 20px;
+    border: 3px solid green;
+    width: 29rem;
+    height: 30rem;
+}
+
+
+
+#Part-Price {
+    display: flex;
+}
+
+#Sect-Nav {
+    display: flex;
+    align-items: end;
+    
+    border: solid 3px yellowgreen;
+    margin-left: 11.4rem;
+    width: 30rem;
+}

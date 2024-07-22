@@ -8,16 +8,15 @@ function Footer() {
         return(
             <>
             <footer>
-                 
                 <div className="container">
                 <div className="desc-logo">
                     <img className="logo" src={logo} alt="" />
                     <p className="descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. </p>  
-                     <div className="RedesSocias">
+                    <div className="RedesSocias">
                         <img src={facebook} alt="" />
                         <img src={instagram} alt="" />
                         <img src={twetter} alt="" />
-                     </div>
+                    </div>
                 </div>
 
                     <div className="margin">
