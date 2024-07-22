@@ -1,0 +1,140 @@
+
+@media (width <= 900px) {
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap'); 
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+    footer {
+        color: white;
+        /* padding: 1rem 1.5rem; */
+        background-color: #1F1F1F;
+        width: 100vw;
+        font-family: "Inter", sans-serif;
+        text-align: left;
+        font-weight: 100;
+    }
+    .desc-logo .descricao {
+        width: 10rem;
+        text-align: left;
+    }
+
+ 
+    .RedesSocias{
+        display: flex;
+        justify-content: space-between;
+        height: 1rem;
+        
+        width: 6em;
+    }
+
+
+
+    .container {
+        display: flex;
+        /* justify-content: space-between; */
+        flex-direction: row;
+        flex-wrap: wrap;
+        /* margin: auto; */
+        
+    }
+
+
+    /*     .container .margin {
+        margin-right: 8em;
+        /* width: 9em; */
+     */
+    .container div .endereco {
+        width: 14em;
+        text-align: left;
+    }
+
+    .copy p{
+        display: flex;
+        justify-content: center;
+    }
+    .desc-logo .logo{
+        height: 1.6em;
+    }
+}
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+footer {
+    color: white;
+    padding: 2rem 1.6rem;
+    background-color: #1F1F1F;
+    width: 100vw;
+    font-family: "Inter", sans-serif;
+    text-align: left;
+    
+    font-weight: 100;
+    
+}
+
+
+.desc-logo{
+    margin-top: 0.5rem;    
+}
+
+footer .descricao {
+    text-align: left;
+    width: 18vw;
+
+}
+
+
+.logo{
+    height: 2em;
+    
+}
+
+.RedesSocias{
+    display: flex;
+    justify-content: space-between;
+    height: 1rem;
+    
+    width: 6em;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    
+}
+.container h2{
+    margin-top: 0.5rem; ;
+    margin-right: 0.5rem;;
+    margin-bottom: 0.5rem;;
+}
+.container p{
+    margin-bottom: 0.7rem;
+}
+
+.container div .endereco {
+    width:20vw;
+}
+
+
+ .desc-logo .descricao{
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+
+.copy p{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+hr{
+    margin-top: 0.5rem;
+}
