@@ -4,7 +4,6 @@ import blusaSupreme from "../../assets/blusaSupreme.png"
 import adidasSapato from "../../assets/adidasSapato.png"
 import foneDeOuvido from "../../assets/foneDeOuvido.png"
 import greyTshirt from "../../assets/greyTshirt.svg"
-
 import Card from "../../PropsPages/Card"
 import CompraBotao from "../../PropsPages/CompraBotao"
 import BotaoDesconto from "../../PropsPages/BotaoDesconto"
