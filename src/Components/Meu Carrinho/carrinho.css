@@ -1,0 +1,60 @@
+@import url('../Colecao/colecao.css');
+
+body{
+    background-color: var(--background);
+}
+
+.container_meucarrinho{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 5rem;
+    gap: 1rem;
+}
+
+.meu_carrinho{
+    width: 55.6rem;
+    height: 22rem;
+    background-color: white;
+    border: 2px solid black;
+    margin-left: 6.1rem;
+    padding: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.titles{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    font-size: 0.8rem;
+    color: var(--dark-grey2);
+    letter-spacing: 0.75px;
+}
+
+
+.t-carrinho{
+    font-weight: 700;
+    margin-right: 22.8rem;
+}
+
+.sub-titles{
+    display: flex;
+    gap: 1.9rem;
+}
+
+.linha{
+    width: 100%;
+    border: 1px solid #CCCCCC;
+}
+
+
+.card-resumo{
+    border: 2px solid orange;
+    width: 20.8rem;
+    height: 22.75rem;
+    /* padding: 30px; */
+    margin-right: 6.3rem;
+}
