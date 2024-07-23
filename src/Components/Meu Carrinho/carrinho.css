@@ -1,10 +1,10 @@
 @import url('../Colecao/colecao.css');
 
-body{
+body {
     background-color: var(--background);
 }
 
-.container_meucarrinho{
+.container_meucarrinho {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -12,7 +12,7 @@ body{
     gap: 1rem;
 }
 
-.meu_carrinho{
+.meu_carrinho {
     width: 55.6rem;
     height: 22rem;
     background-color: white;
@@ -21,11 +21,10 @@ body{
     padding: 1.8rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 1.25rem;
 }
 
-.titles{
+.titles {
     text-transform: uppercase;
     display: flex;
     justify-content: center;
@@ -35,26 +34,75 @@ body{
 }
 
 
-.t-carrinho{
+.t-carrinho {
     font-weight: 700;
     margin-right: 22.8rem;
 }
 
-.sub-titles{
+.sub-titles {
     display: flex;
     gap: 1.9rem;
 }
 
-.linha{
+.linha {
     width: 100%;
     border: 1px solid #CCCCCC;
 }
 
-
-.card-resumo{
+.card-resumo {
     border: 2px solid orange;
     width: 20.8rem;
     height: 22.75rem;
     /* padding: 30px; */
     margin-right: 6.3rem;
+}
+
+.car-product {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.25rem;
+}
+
+#blue-square {
+    background-color: var(--blue-background);
+    width: 7.9rem;
+    height: 6.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prod-name {
+    font-weight: 600;
+    width: 14rem;
+    line-height: 20px;
+    font-size: 0.8rem;
+}
+
+#prod-cor {
+    margin-top: 0.6rem;
+    font-weight: 500;
+    color: var(--light-grey);
+    font-size: 0.8rem;
+    display: flex;
+    gap: 0.6rem;
+}
+
+#type-color {
+    color: var(--black);
+    font-weight: 500;
+}
+
+#prod-tamanho {
+    margin-top: 0.37rem;
+    font-weight: 500;
+    color: var(--light-grey);
+    font-size: 0.8rem;
+    display: flex;
+    gap: 0.6rem;
+}
+
+#type-size {
+    color: var(--black);
+    font-weight: 500;
 }
