@@ -7,14 +7,14 @@
 - Levy - **Back-end**
 - Paulo Henrique - **Front-end**
 
-# 1 - Descrição do Projeto
+## 1 - Descrição do Projeto
 
 O projeto tem como finalidade colocar em prática o que foi ensinado
 em sala de aula através da criação de um site de uma loja
 online ultilizando as linguagens HTML, CSS, JavaScript e a biblioteca
 React.
 
-# 2 - Decições e Organização
+## 2 - Decições e Organização
 
 Através de uma reunião foi decidido que cada membro ficaria responsável
 por uma seção, que no final seria integrada junto as outra
@@ -27,7 +27,7 @@ membro pudesse inserir os códigos da sua seção.
 Quando concluído, foi feito a merge de cada branch na main, criando
 a página.
 
-# 3 - Instalação
+## 3 - Instalação
 
 1. Faça um git clone do repositório do GitHub (`git clone
 link-do-repositorio)`
