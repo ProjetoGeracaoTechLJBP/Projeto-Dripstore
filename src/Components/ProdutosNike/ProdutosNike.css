@@ -178,6 +178,17 @@
 
 #Text-Color {
     margin-bottom: 2px;
+    color: #8F8F8F;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#btn-Color button {
+    margin-right: 7px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
 }
 
 #btn-Compra {

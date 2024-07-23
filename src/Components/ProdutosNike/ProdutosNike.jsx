@@ -101,10 +101,10 @@ function DarkVariantExample() {
             </div>
             <p id='Text-Color'>Cores</p>
             <div id='btn-Color'>
-              <button>fafdfd</button>
-              <button>fafdfd</button>
-              <button>fafdfd</button>
-              <button>fafdfd</button>
+              <button id='btn-blue'></button>
+              <button id='btn-pink'></button>
+              <button id='btn-gray'></button>
+              <button id='btn-purple'></button>
             </div>
             <button id='btn-Compra'>Comprar</button>
           </div>
