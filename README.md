@@ -1,9 +1,9 @@
-**Projeto Final Geração Tech**
+# Projeto Final Geração Tech
 
 ## Membros
 
-- Beatriz - **Líder**
-- Jefferson - **Vice-líder**, **Full-Cycle**
+- Beatriz - **Lider**
+- Jefferson - **Vice-lider**, **Full-Cycle**
 - Levy - **Back-end**
 - Paulo Henrique - **Front-end**
 
@@ -14,7 +14,7 @@ em sala de aula através da criação de um site de uma loja
 online ultilizando as linguagens HTML, CSS, JavaScript e a biblioteca
 React.
 
-## 2 - Decições e Organização
+## 2 - Decisões e Organização
 
 Através de uma reunião foi decidido que cada membro ficaria responsável
 por uma seção, que no final seria integrada junto as outra
@@ -29,8 +29,7 @@ a página.
 
 ## 3 - Instalação
 
-1. Faça um git clone do repositório do GitHub (`git clone
-link-do-repositorio)`
+1. Faça um git clone do repositório do GitHub (`git clone link-do-repositorio)`
 2. Instale o npm (`npm install`)
 3. Inicie o servidor e abra o link oferecido (`npm run dev`)
 

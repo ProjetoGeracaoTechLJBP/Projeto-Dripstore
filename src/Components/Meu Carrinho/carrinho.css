@@ -13,7 +13,7 @@ body {
 }
 
 .meu_carrinho {
-    width: 55.6rem;
+    width: 62%;
     height: 22rem;
     background-color: white;
     border: 2px solid black;
@@ -27,7 +27,6 @@ body {
 .titles {
     text-transform: uppercase;
     display: flex;
-    justify-content: space-between;
     font-size: 0.8rem;
     color: var(--dark-grey2);
     letter-spacing: 0.75px;
@@ -36,6 +35,7 @@ body {
 
 .t-carrinho {
     font-weight: 700;
+    margin-right: 25.2rem;
 }
 
 .sub-titles {
@@ -71,14 +71,20 @@ body {
     justify-content: center;
 }
 
-.prod-info{
+.prod-info {
     margin-right: 7.3rem;
     display: flex;
+    gap: 1rem;
 }
 
-.prod-info-texts{
+.prod-info-texts {
     display: flex;
     flex-direction: column;
+}
+
+.abt-prod {
+    display: flex;
+    gap: 1rem;
 }
 
 .prod-name {
@@ -136,7 +142,7 @@ body {
     border-radius: 2.92px;
 }
 
-.prod-unit{
+.prod-unit {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -149,7 +155,7 @@ body {
     font-weight: 400;
 }
 
-.unit-price{
+.unit-price {
     font-size: 1rem;
     color: var(--dark-grey2);
     font-weight: 700;
