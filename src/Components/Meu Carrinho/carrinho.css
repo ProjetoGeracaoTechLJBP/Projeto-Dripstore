@@ -27,7 +27,7 @@ body {
 .titles {
     text-transform: uppercase;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     font-size: 0.8rem;
     color: var(--dark-grey2);
     letter-spacing: 0.75px;
@@ -36,7 +36,6 @@ body {
 
 .t-carrinho {
     font-weight: 700;
-    margin-right: 22.8rem;
 }
 
 .sub-titles {
@@ -72,6 +71,16 @@ body {
     justify-content: center;
 }
 
+.prod-info{
+    margin-right: 7.3rem;
+    display: flex;
+}
+
+.prod-info-texts{
+    display: flex;
+    flex-direction: column;
+}
+
 .prod-name {
     font-weight: 600;
     width: 14rem;
@@ -105,4 +114,43 @@ body {
 #type-size {
     color: var(--black);
     font-weight: 500;
+}
+
+.prod-quantidade {
+    display: flex;
+    align-items: center;
+    gap: 1.1rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.contItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--light-grey2);
+    width: 2.1rem;
+    height: 2.1rem;
+    background: none;
+    cursor: pointer;
+    border-radius: 2.92px;
+}
+
+.prod-unit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.last-price {
+    font-size: 0.8rem;
+    color: var(--light-grey2);
+    text-decoration: line-through;
+    font-weight: 400;
+}
+
+.unit-price{
+    font-size: 1rem;
+    color: var(--dark-grey2);
+    font-weight: 700;
 }
