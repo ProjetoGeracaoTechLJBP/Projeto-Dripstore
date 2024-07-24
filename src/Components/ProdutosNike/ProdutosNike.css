@@ -9,6 +9,7 @@
 
 #Corpo {
     background-color: #F9F8FE;
+    margin-left: 6rem;
 }
 
 #Sect-Nav {
@@ -17,7 +18,7 @@
     /* background-color: #F9F8FE; */
     /* border: solid 3px yellowgreen; */
     /* margin-left: 11.4rem; */
-    margin-left: 6.1rem;
+    margin-left: 0.5rem;
     width: 40rem;
     font-size: 13px;
     color: #474747;
@@ -32,8 +33,7 @@
 
 #Sect-TenisAndInformation {
     display: flex;
-    border: 2px solid black;
-    justify-content: center;
+    /* border: 2px solid black; */
     align-items: center;
     width: 90%;
     height: 30rem;
@@ -91,7 +91,7 @@
 #carouselExampleDark {
     display: flex;
     flex-direction: column;
-    border: 3px solid red;
+    /* border: 3px solid red; */
     margin-bottom: 22px;
     width: 35rem;
     height: 28rem;
@@ -217,12 +217,12 @@
     font-size: 14px;
 }
 
+
 #btn-Color button {
     margin-right: 7px;
     width: 30px;
     height: 30px;
     border-radius: 50%;
-
 }
 
 #btn-Color > #btn-blue {
@@ -262,8 +262,7 @@
 }
 
 #Sect-Cards {
-    border: 2px solid red ;
-    height: 5rem;
+    /* border: 2px solid red ; */
     width: auto;
     display: flex;
     align-items: center;
@@ -274,15 +273,15 @@
     justify-content: center;
     /* border: 1px solid green; */
     width: auto;
-    margin-left: 5.3rem;
 }
+
 
 
 #Sect-Cards > #cards > button {
     width: 5rem;
     height: 4rem;
     /* margin-left: 4rem; */
-    margin: 0.3rem 2rem 2rem 0.5rem;
+    margin: 0.3rem 2rem 2rem 0.4rem;
     border: none;
     
 }

@@ -145,9 +145,3 @@ function DarkVariantExample() {
 
 export default DarkVariantExample;
 
-
-{/* <p>R$</p>
-               </div>
-               <p id='Preco-Value'>219,</p>
-               <p id='Zero'>00</p>
-                */}
