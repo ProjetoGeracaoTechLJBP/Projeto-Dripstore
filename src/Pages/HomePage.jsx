@@ -6,8 +6,8 @@ function HomePage() {
   return (
     <>
       <ProdutosNike></ProdutosNike>
-{/*       <Footer></Footer>
- */}
+      {/* <Footer></Footer> */}
+
     </>
   )
 }
