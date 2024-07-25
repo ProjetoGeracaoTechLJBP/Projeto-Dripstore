@@ -38,13 +38,13 @@ Quando concluído, foi feito a merge de cada branch na main.
 	- Página 3: Adicionado carrossel, textos, botões, estelização e funcionalidade.
 
 ## 3.2 - Cronograma Beatriz Lopes:
-- Primeira Parte: Criado o documento Root da organizado - Início: 17-07-2024 / Fim: 17-07-2024;
+- Primeira Parte: Criado o documento Root da organização - Início: 17-07-2024 / Fim: 17-07-2024;
 - Segunda Parte: Seção de Coleção da HomePage. - Início: 18-07-2024  / Fim: 19-07-2024
 	-  Coleção: Seção estruturada, divs sepadadas, adicionada paleta e fontes.
 - Teceira Parte: Continuação da seção de Coleção.
-	- Coleção: Adicionadas Props e botões interativos - Início: 19-07-2024 / Fim: 21-07-2024;
-- Quarta Parte: Iniciado o desenvolvido da pagina de Carrinho da Sprint 2. - Início: 23-07-2024 / Fim: 23-07-2024;
-	- Carrinho: Estruturação da section e separação das divs, também foi iniciada a estilização
+	- Coleção: Adicionadas Props, botões interativos, organizadas margens e tamanhos  - Início: 19-07-2024 / Fim: 21-07-2024;
+- Quarta Parte: Iniciado o desenvolvido da pagina 1 de Carrinho da Sprint 2. - Início: 23-07-2024 / Fim: 23-07-2024;
+	- Carrinho: Estruturação da section e separação das divs, também foi iniciada a estilização.
 - Quinta Parte: Finazalição da primeira sessão. - Início: 23-07-2024 / Fim: 24-07-2024;
 	- Carrinho: Adicionado a parte interativa por meio de useState e useEffect
 
