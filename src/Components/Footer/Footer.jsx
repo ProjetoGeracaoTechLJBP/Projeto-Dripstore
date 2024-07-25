@@ -29,6 +29,7 @@ function Footer() {
                         <p>Trabalhe conosco</p>
                         <p>Meus pedidos</p>
                     </div>
+
                     <div className="margin">
                         <h2>Categorias</h2>
                         <p>Camisetas</p>
@@ -37,6 +38,7 @@ function Footer() {
                         <p>Headphones</p>
                         <p>Tênis</p>
                     </div>
+
                     <div>
                         <h2>Contatos</h2>
                         <p className="endereco">Av. Santos Dumont, 1510 - 1 andar - Aldeota, Fortaleza - CE, 60150-161</p>
