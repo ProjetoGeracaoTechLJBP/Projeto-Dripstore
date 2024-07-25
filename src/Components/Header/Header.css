@@ -6,7 +6,7 @@
     font-family: "Inter", sans-serif;
 }
 
-header {
+#Header {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -14,8 +14,14 @@ header {
     padding: 50px;
 }
 
-#Logo-Img-Digital > img {
+#Img-Digital {
     height: 2.5rem;
+}
+
+#Img-Digital:hover {
+    cursor: pointer;
+    transform: scale(1.04);
+    transition: 0.3s ease;
 }
 
 #Input-search > input {
@@ -50,8 +56,6 @@ header {
 }
 
 #Btn-Enter {
-/*     border: 2px solid red;
- */ 
     border: none;   
     width: 95px;
     height: 34px;
@@ -79,4 +83,6 @@ header {
 
 #Icon-CartShop:hover {
     cursor: pointer;
+    transform: scale(1.04);
+    transition: 0.3s ease;
 }

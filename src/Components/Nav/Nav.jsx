@@ -6,9 +6,9 @@ function Nav() {
         <>
             <section id="navigation">
                 <li><Link to="/" id="link">Home</Link></li>
-                <li><Link to="/" id="link">Produto</Link></li>
-                <li><Link to="/" id="link">Categorias</Link></li>
-                <li><Link to="/" id="link">Meus Pedidos</Link></li>
+                <li><Link to="/produto" id="link">Produto</Link></li>
+                <li><Link to="/produto" id="link">Categorias</Link></li>
+                <li><Link to="#" id="link">Meus Pedidos</Link></li>
             </section>
         </>
     )
