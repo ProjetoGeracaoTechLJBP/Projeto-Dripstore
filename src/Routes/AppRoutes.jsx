@@ -6,16 +6,17 @@ function AppRoutes() {
 
   return (
     <>
-        <BrowserRouter>
+      <BrowserRouter>
         <Routes>
           <Route>
-          {/* <Route index element={<HomePage/>}/> */}
-          <Route index element={<CarrinhoPage/>}/>
+            {/* <Route index element={<HomePage/>}/> */}
+            <Route index element={<CarrinhoPage />} />
+            <Route element={<HomePage />} />
 
-          {/* <Route path='/' element={#}/> */}
+            {/* <Route path='/' element={#}/> */}
           </Route>
         </Routes>
-        </BrowserRouter>
+      </BrowserRouter>
 
     </>
   )
