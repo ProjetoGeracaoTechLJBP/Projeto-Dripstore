@@ -1,0 +1,155 @@
+
+.SectionLogin{
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+    gap: 4rem;
+    background: linear-gradient(#B5B6F2,#EFEFFF);
+}
+
+
+.FormLogin{
+    background-color: white;
+    width: 36.438;
+    height: 35rem;
+    padding: 0.5rem 2rem;
+}
+
+.TitleFormLogin{
+    
+    margin: 2rem 0rem
+}
+
+.TitleFormLogin a{
+    color: #474747
+}   
+
+.TitleFormLogin a:hover{
+    color: #8b8b8b;
+}
+
+.TitleFormLogin h1{
+    color: #1F1F1F;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 1.8rem;
+}
+
+.TitleFormLogin p{
+    font-weight: 500;
+}
+
+.InputLogin {
+    display: flex;
+    flex-direction: column;
+}
+
+.InputLogin label{
+    color: #474747 ;
+    font-weight: 700;
+    font-size: 12px;
+    margin-bottom: 0.5rem;
+}
+
+.InputLogin input{
+    border: none;
+    outline: none;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    background-color: #f8f8f8 ;
+    height: 3.5rem;
+    width: 32.688rem;
+    max-width: 50rem;
+}
+
+.InputLogin input:hover{
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out;
+}
+
+.InputSenhaLogin{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.InputSenhaLogin label{
+    color: #474747 ;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    font-weight: 600;
+    font-size: 12px;
+    margin-bottom: 0.5rem;
+}
+.InputSenhaLogin input{
+    border: none;
+    outline: none;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    background-color: #f8f8f8 ;
+    height: 3.5rem;
+    width: 32.688rem;
+    max-width: 50rem;
+}
+
+.InputSenhaLogin input:hover{
+    transform: scale(1.01);
+    transition: 0.2s ease-in-out;
+}
+.EsqueciLogin{
+    
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.EsqueciLogin a{
+    font-size: 15px;
+    font-weight: 400;
+    color: #474747;
+
+}
+
+.EsqueciLogin a:hover{
+    color: #8b8b8b;
+}
+
+
+.ImgSapatos img{
+    height: 50rem;
+}
+
+.FormLogin .ButtonLogin{
+    
+    display: flex;
+    justify-content: center;
+}
+.FormLogin button{
+    border: none;
+    padding: 0.8rem;
+    width: 32.688rem;
+    border-radius: 0.9rem;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.67px; 
+    background-color: #C92071;
+    margin: 0px;
+    margin-top: 0.8rem;
+}
+.FormLogin button:hover{
+    background-color: #aa1a60 ;
+}
+
+.OutrosLogins{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+ .OutrosLogins img{
+    height: 1.1rem;
+ }
+ .OutrosLogins img:hover{
+    transform: scale(1.2);
+    transition: 0.5s all;
+    
+ }
