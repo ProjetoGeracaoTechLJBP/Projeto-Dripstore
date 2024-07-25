@@ -26,7 +26,7 @@ Quando concluído, foi feito a merge de cada branch na main.
 
 # 3 - Cronograma
 
-## 3.1 Cronograma Jefferson de Oliveira:
+## 3.1 - Cronograma Jefferson de Oliveira:
 - Primeira Parte: Produção do componente Header - Início: 17-07-2024 / Fim: 18-07-2024;
 	- Header: Adicionado logo,input,font,botões e estilização.
 - Segunda Parte: Produção do componente NavBar - Início: 18-07-2024  / Fim: 19-07-2024 e
