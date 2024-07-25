@@ -1,0 +1,49 @@
+.listproduct{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0rem 2rem;
+
+    
+}
+.formCheckbox{
+    /* padding:rem 2rem; */
+    /* border: 1px red solid; */
+}
+.hrcheckbox {
+    /* margin: 1rem 0.4rem; */
+    border: solid #CCCCCC;
+    border-width: 1px;
+    width: 12rem;
+    
+
+}
+
+.formCheckbox01 h4{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #474747;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.formCheckbox01 label{
+    font-weight: 500;
+    line-height: 22px;
+    font-size: 14px;
+}
+.formCheckbox01 div{
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* .formCheckbox01 input:checked{
+    background-color: #C92071;
+} */
+
+input[type='checkbox'] {
+    accent-color: #C92071;
+    width: 1.5rem;
+
+  }
