@@ -5,6 +5,11 @@ function Card(props) {
         <div className="cardContainer">
             <div className="back_image">
                 <img src={Tenis} alt="" />
+                <div className="desconto-absolute">
+                    {/* <p>30% OFF</p> */}
+                    <p>{props.descontoespecial}</p>
+                </div>
+                
             </div>
             
             <h5>{props.nome}</h5>

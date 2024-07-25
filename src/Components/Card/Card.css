@@ -16,12 +16,34 @@
     margin-bottom: 1rem;
 
 }
+.back_image{
+    box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.144);
+}
+.back_image .desconto-absolute{
+    position: relative;
+    bottom: 8.5rem;
+    left: 0px;
+}
+
+.desconto-absolute{
+    text-align: center;
+   background-color: #E7FF86; 
+   width: 6rem;
+   border-radius: 2rem;
+   font-weight: 600;
+   color: #474747;
+}
 
 .cardContainer{
-    background-color: rgb(254, 254, 255);
+    background-color: #F9F8FE;
     margin: 1rem;
     /* text-align: center; */
     font-family: 'Inter', sans-serif;
+    transition: 0.3s ease;
+}
+.cardContainer:hover{
+    transform: scale(1.1);
+
 }
 
 h5{

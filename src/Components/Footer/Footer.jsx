@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Footer.css"
 import logo from "../../assets/logo.png"
 import twetter from "../../assets/twetter.png"
@@ -11,7 +12,8 @@ function Footer() {
                  
                 <div className="container">
                 <div className="desc-logo">
-                    <img className="logo" src={logo} alt="" />
+                <Link to="/"><img className="logo" src={logo} alt="" /></Link>
+                    
                     <p className="descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. </p>  
                      <div className="RedesSocias">
                         <img src={facebook} alt="" />
@@ -30,20 +32,25 @@ function Footer() {
                         <p>Meus pedidos</p>
                     </div>
                     <div className="margin"> 
+                        
                         <h2>Categorias</h2>    
-                        <p>Camisetas</p>
-                        <p>Calças</p>
-                        <p>Bonés</p>
-                        <p>Headphones</p>
-                        <p>Tênis</p>
+                        
+                        <div className="link-footer">
+                        <Link to="/produto">Camisetas</Link>
+                        <Link to="/produto">Calças</Link>
+                        <Link to="/produto">Bonés</Link>
+                        <Link to="/produto">Headphones</Link>
+                        <Link to="/produto">Tênis</Link>
+                        </div>
+ 
                     </div> 
-                    <div> 
+                    <div className="margin"> 
                         <h2>Contatos</h2>    
                         <p className="endereco">Av. Santos Dumont, 1510 - 1 andar - Aldeota, Fortaleza - CE, 60150-161</p>
                         <p>(85) 3051-3411</p>
                     </div>  
                 </div>
-                <hr />
+                <hr className="hrfooter" />
                 <div className="copy">
                 <p>@ 2022 Digital College</p>
                 </div>

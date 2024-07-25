@@ -5,7 +5,7 @@ import StyleCard from "../StyleCard/StyleCard"
 function Produtos(){
     return(
         <>
-        <section>
+        <section className="produtos">
             <div className="sec01">
                 <div className="sectionTitle">
                 <h4>Produtos em alta</h4>

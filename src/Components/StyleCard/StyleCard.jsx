@@ -4,27 +4,31 @@ import "./StyleCard.css"
 function StyleCard() {
     let produtos1 = [
         {
+          descontoespecial: "30% OFF",
           nome:"Tênis",
           descricao:"K-Swiss V8 - Masculino",
           valor:'$300',
           desconto:'$200'
         },
         {
+          descontoespecial: "30% OFF",
+          nome:"Tênis",
+          descricao:"K-Swiss V8 - Masculino",
+          valor:'$400',
+          desconto:'$200'
+        },
+        {
+          
           nome:"Tênis",
           descricao:"K-Swiss V8 - Masculino",
           valor:'$300',
           desconto:'$200'
         },
         {
+          
           nome:"Tênis",
           descricao:"K-Swiss V8 - Masculino",
-          valor:'$300',
-          desconto:'$200'
-        },
-        {
-          nome:"Tênis",
-          descricao:"K-Swiss V8 - Masculino",
-          valor:'$300',
+          valor:'$600',
           desconto:'$200'
         }
         // {
@@ -59,6 +63,7 @@ function StyleCard() {
           produtos1.map((produto,index) => (
             <Card 
               key={index}
+              descontoespecial={produto.descontoespecial}
               nome={produto.nome}
               descricao={produto.descricao}
               valor={produto.valor}
