@@ -15,9 +15,6 @@
 #Sect-Nav {
     display: flex;
     align-items: end;
-    /* background-color: #F9F8FE; */
-    /* border: solid 3px yellowgreen; */
-    /* margin-left: 11.4rem; */
     margin-left: 0.5rem;
     width: 40rem;
     font-size: 13px;
@@ -50,10 +47,8 @@
     font-weight: normal;
     color: #666666;
 }
-/* teste */
 
 .carousel {
-    background-color: var(--light-gray-4);
     width: 100vw;
     height: 76.67vh;
     display: flex;
@@ -95,8 +90,9 @@
     margin-bottom: 22px;
     width: 35rem;
     height: 28rem;
-    background-color: #E2E3FF;
 }
+
+.backColor-carousel { background-color: #E2E3FF; }
 
 .imagem-ilustrativa > img {
     width: 25rem;
@@ -105,14 +101,12 @@
 
 #Information-Product {
     margin: 20px;
-    /* border: 3px solid green; */
     width: 29rem;
     height: 30rem;
 }
 
 #star-Container {
     display: flex;
-    /* border: 2px solid red; */
     margin-bottom: 5px;
 }
 
@@ -134,8 +128,6 @@
     margin: 3px;
     color: #8F8F8F;
 }
-
-
 
 #Part-Price {
     display: flex;
@@ -168,10 +160,6 @@
     font-size: 2rem;
 }
 
-#Zero {
-    
-}
-
 #paragraph-Description {
     margin-bottom: 2px;
     color: #8F8F8F;
@@ -190,16 +178,24 @@
     font-size: 14px;
 }
 
+.mudar-de-cor{
+    background-color: #C92071;
+    color: white;
+    border: #C92071;
+}
+
+.btn-num-color {
+    background-color: white;
+    border: 1px solid #8F8F8F;
+}
+
 #btn-Number button {
     margin-right: 7px;
     padding: 5px;
     width: 2.3rem;
     height: 2.3rem;
-    background-color: white;
-    border: 1px solid #8F8F8F;
     border-radius: 3px;
     font-weight: 600;
-    color: #474747;
     font-size: 15px;
 }
 
@@ -216,7 +212,6 @@
     font-weight: bold;
     font-size: 14px;
 }
-
 
 #btn-Color button {
     margin-right: 7px;
@@ -243,6 +238,9 @@
     border: none;
 }
 
+#btn-blue:hover {
+    border: 1px solid red;
+}
 
 #btn-Compra {
     margin-top: 8px;
@@ -262,7 +260,6 @@
 }
 
 #Sect-Cards {
-    /* border: 2px solid red ; */
     width: auto;
     display: flex;
     align-items: center;
@@ -271,45 +268,44 @@
 #Sect-Cards > div {
     display: flex;
     justify-content: center;
-    /* border: 1px solid green; */
     width: auto;
 }
-
-
 
 #Sect-Cards > #cards > button {
     width: 5rem;
     height: 4rem;
-    /* margin-left: 4rem; */
     margin: 0.3rem 2rem 2rem 0.4rem;
     border: none;
     
 }
 
-#card-1 {
+.card-1 {
     background-color: #E2E3FF;
     border-radius: 5px;
 }
 
-#card-2 {
+.card-2 {
     background-color: #FFE8BC;
     border-radius: 5px;
 }
 
-#card-3 {
+.card-3 {
     background-color: #FFC0BC;
     border-radius: 5px;
 }
 
-#card-4 {
+.card-4 {
     background-color: #DEC699;
     border-radius: 5px;
 }
 
-#card-5 {
+.card-5 {
     background-color: #E8DFCF;
     border-radius: 5px;
 }
+
 #cards > button > img {
     width: 3.5rem;
 }
+
+
