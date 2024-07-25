@@ -1,0 +1,103 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+.SectionCriar{
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+    gap: 4rem;
+    background: linear-gradient(#B5B6F2,#EFEFFF);
+}
+.FormCriar{
+    background-color: white;
+    width: 36.438;
+    height: 24.938rem;
+    padding: 0.5rem 2rem;
+}
+
+.TitleFormCriar{
+    
+    margin: 2rem 0rem
+}
+
+.TitleFormCriar a{
+    color: #474747
+}   
+
+.TitleFormCriar a:hover{
+    color: #8b8b8b;
+}
+.TitleFormCriar h1{
+    color: #1F1F1F;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 1.8rem;
+}
+.TitleFormCriar p{
+    font-weight: 400;
+}
+
+.InputCriar {
+    display: flex;
+    flex-direction: column;
+}
+.InputCriar label{
+    font-weight: 600;
+    font-size: 12px;
+    margin-bottom: 0.5rem;
+}
+
+.InputCriar input{
+    border: none;
+    outline: none;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    background-color: #f8f8f8 ;
+    height: 3.5rem;
+    width: 32.688rem;
+    max-width: 50rem;
+}
+
+.InputCriar input:hover{
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out;
+}
+
+.FormLogin .ButtonLogin{
+    
+    display: flex;
+    justify-content: center;
+}
+.FormCriar button{
+    border: none;
+    padding: 0.8rem;
+    width: 32.688rem;
+    border-radius: 0.9rem;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.67px; 
+    background-color: #C92071;
+    margin: 0px;
+    margin-top: 1rem;
+}
+.FormCriar button:hover{
+    background-color: #aa1a60 ;
+}
+.ImgSapatos img{
+    height: 50rem;
+}
+.OutrosLogins{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+ .OutrosLogins img{
+    height: 1.1rem;
+ }
+ .OutrosLogins img:hover{
+    transform: scale(1.2);
+    transition: 0.5s all;
+    
+ }
