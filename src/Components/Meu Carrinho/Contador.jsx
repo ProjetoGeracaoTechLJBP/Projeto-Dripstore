@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 
 export function Contador(initialValue = 1) {
     const [count, setCount] = useState(initialValue)
+    const [multi, setMult] = useState(219)
 
     function inc(){
         setCount(count + initialValue)
@@ -13,6 +14,13 @@ export function Contador(initialValue = 1) {
         setCount(count - initialValue)
     }
 
-    return[count, inc, dec]
+    useEffect(() => {
+        setMult(() => 
+            count*219
+        )
+    }, [count])
 
+
+    return[count, inc, dec, multi]
 }
+

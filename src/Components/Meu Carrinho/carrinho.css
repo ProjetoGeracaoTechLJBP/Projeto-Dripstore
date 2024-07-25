@@ -13,7 +13,7 @@ body {
 }
 
 .meu_carrinho {
-    width: 62%;
+    width: 64%;
     height: 22rem;
     background-color: white;
     border: 2px solid black;
@@ -46,14 +46,6 @@ body {
 .linha {
     width: 100%;
     border: 1px solid #CCCCCC;
-}
-
-.card-resumo {
-    border: 2px solid orange;
-    width: 20.8rem;
-    height: 22.75rem;
-    /* padding: 30px; */
-    margin-right: 6.3rem;
 }
 
 .car-product {
@@ -159,4 +151,68 @@ body {
     font-size: 1rem;
     color: var(--dark-grey2);
     font-weight: 700;
+}
+
+
+.card-resumo {
+    border: 2px solid orange;
+    width: 20.8rem;
+    padding: 30px;
+    margin-right: 6.3rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+
+}
+
+.resumo{
+    color: var(--dark-grey2);
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.info-values{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-title{
+    font-size:0.8rem;
+    color: var(--light-grey);
+    font-weight: 600;
+}
+
+.value{
+    font-size: 0.8rem;
+    color: var(--dark-grey);
+    font-weight: 600;
+}
+
+.title-total{
+    font-weight: 700;
+    color: var(--dark-grey);
+}
+
+.total{
+    font-size: 1.1rem;
+    color: var(--pink);
+    font-weight: 700;
+}
+
+#continue{
+    padding: 0.5rem 0.5rem;
+    background-color: #F6AA1C;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: .100s;
+}
+
+#continue:hover{
+
+    background-color: #991956;
+    color: white;
+    border: none;
 }

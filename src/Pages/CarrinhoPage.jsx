@@ -6,6 +6,7 @@ function CarrinhoPage() {
   return (
     <>
    <Carrinho></Carrinho>
+   <Footer></Footer>
 
     </>
   )
