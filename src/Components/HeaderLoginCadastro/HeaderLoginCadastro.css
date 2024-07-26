@@ -1,0 +1,23 @@
+
+*{
+    font-family: 'Inter', sans-serif;
+}
+.HeaderLoginCadastro{
+    background-color: rgb(255, 255, 255);
+    
+    padding: 2.5rem;
+
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    
+}
+.HeaderLoginCadastro img{
+    height: 2em;
+}
+
+.HeaderLoginCadastro img:hover{
+    transform: scale(1.04);
+    transition: 0.3s ease;
+    cursor: pointer;
+}
