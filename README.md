@@ -1,9 +1,9 @@
 # Projeto Final Geração Tech
 
-- Beatriz - **Lider**, **Front-end**
-- Jefferson - **Vice-lider**, **Full-Cycle**
-- Levy - **Back-end**
-- Paulo Henrique - **Front-end**
+- Beatriz Lopes - **Lider**, **Front-end**
+- Jefferson de Oliveira- **Vice-lider**, **Full-Cycle**
+- Levy Pereira - **Back-end**
+- Paulo Henrique Carvalho - **Front-end**
 
 # 1 - Descrição do Projeto
 
