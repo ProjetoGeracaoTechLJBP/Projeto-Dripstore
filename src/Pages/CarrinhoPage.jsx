@@ -4,6 +4,7 @@ import Header from '../Components/Header/Header'
 import Nav from '../Components/Nav/Nav'
 import Carrinho from "../Components/Meu Carrinho/Carrinho"
 import Produtos from '../Components/Produtos/Produtos'
+import ProductALta from '../Components/ProductALta/ProductALta'
 function CarrinhoPage() {
 
   return (
@@ -11,7 +12,8 @@ function CarrinhoPage() {
       <Header></Header>
       <Nav></Nav>
       <Carrinho></Carrinho>
-      <Produtos/>
+      {/* <Produtos/> */}
+      <ProductALta/>
       <Footer></Footer>
 
     </>
