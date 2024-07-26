@@ -48,7 +48,7 @@ Quando concluído, foi feito a merge de cada branch na main.
 - Quinta Parte: Finazalição da primeira sessão. - Início: 23-07-2024 / Fim: 24-07-2024;
 	- Carrinho: Adicionado a parte interativa por meio de useState e useEffect
 
- ## 3.3 - Cronograma Levy:
+ ## 3.3 - Cronograma Levy Pereira:
 - Primeira Parte: Produção do componente Footer - Início: 17-07-2024 / Fim: 18-07-2024;
 - Segunda Parte: Produção do componente Produtos em alta da página home  - Início: 18-07-2024 / Fim: 20-07-2024
 	- Produtos em alta:  Utilizei props para gerar os conteúdos dos cards  de acordo com as informações consumidas do array.
@@ -58,7 +58,8 @@ No passar do tempo implementei alguns efeitos nos cards.
 - Quarta Parte: Produção do componentes HeaderdeLogineCadastro FormLogin da tela de login - Início: 22-07-2024 / Fim: 23-07-2024
 - Quinta Parte: Produção do componente FormCriarLogin- Início: 22-07-2024 / Fim: 23-07-2024
 
-
+  ## 3.4 - Cronograma Paulo Henrique Carvalho:
+   • Primeira Parte: Produção do componente Carrossel Home-Page - Início: 18-07-2024 / Fim: 23-07-2024;
 
 # 4 - Instalação
   1. Faça um git clone do repositório do GitHub (`git clone
