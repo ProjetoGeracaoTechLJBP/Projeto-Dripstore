@@ -1,0 +1,18 @@
+.star-Avaliacao {
+    display: flex;
+    width: 5rem;
+}
+
+.star {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    fill: gray;
+    transition: fill 0.2s;
+}
+
+
+.star:hover, .star.preenchida {
+    fill: #F6AA1C;
+
+}

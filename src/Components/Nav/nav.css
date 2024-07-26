@@ -8,8 +8,10 @@
 
 #navigation {
     display: flex;
-    margin-left: 2.4rem;
-    padding: 0.7rem 2rem;
+    /* margin-left: 2.4rem; */
+    padding: 0.5rem 2rem;
+    margin-bottom: 1rem;
+    background-color: white;
 }
 
 #navigation > li  {
