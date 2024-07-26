@@ -4,6 +4,7 @@ import Nav  from '../Components/Nav/Nav'
 import Carrossel from '../Components/Carrossel/Carrossel'
 import Colecao from '../Components/Colecao/Colecao'
 import Produtos from '../Components/Produtos/Produtos'
+import Oferta from '../Components/Oferta/Oferta'
 import Footer from '../Components/Footer/Footer'
 
 function HomePage() {
@@ -15,6 +16,7 @@ function HomePage() {
       <Carrossel></Carrossel>
       <Colecao></Colecao>
       <Produtos/>
+      <Oferta></Oferta>
       <Footer></Footer>
 
     </>
