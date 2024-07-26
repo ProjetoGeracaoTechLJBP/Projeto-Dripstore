@@ -1,0 +1,118 @@
+@import url("./colecao.css");
+
+.colection-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-bottom: 7.6rem;
+}
+
+.t-2{
+    margin: 0;
+}
+
+.btn-content{
+    display: flex;
+    gap: 3rem;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 700;
+    color: var(--dark-grey);
+    gap: 0.7rem;
+    letter-spacing: 0.75px;
+}
+
+.btn-product01{
+    display: flex;
+    background-color: white;
+    border-radius: 50%;
+    width: 6.5rem;
+    height: 6.5rem;
+    box-shadow: 0 4px 25px #8f8f8f2b;
+    background-image: url('../../assets/greyTshirt.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: .4s;
+}
+
+.btn-product01:hover{
+    background-image: url('../../assets/pinkTshit.svg');
+}
+
+
+.btn-product02{
+    display: flex;
+    background-color: white;
+    border-radius: 50%;
+    width: 6.5rem;
+    height: 6.5rem;
+    box-shadow: 0 4px 25px #8f8f8f2b;
+    background-image: url('../../assets/greyPants.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: .4s;
+}
+
+.btn-product02:hover{
+    background-image: url('../../assets/pinkPants.svg');
+}
+
+
+.btn-product03{
+    display: flex;
+    background-color: white;
+    border-radius: 50%;
+    width: 6.5rem;
+    height: 6.5rem;
+    box-shadow: 0 4px 25px #8f8f8f2b;
+    background-image: url('../../assets/greyCap.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: .4s;
+}
+
+.btn-product03:hover{
+    background-image: url('../../assets/pinkCap.svg');
+}
+
+
+.btn-product04{
+    display: flex;
+    background-color: white;
+    border-radius: 50%;
+    width: 6.5rem;
+    height: 6.5rem;
+    box-shadow: 0 4px 25px #8f8f8f2b;
+    background-image: url('../../assets/greyHeadphones.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: .4s;
+}
+
+.btn-product04:hover{
+    background-image: url('../../assets/pinkHeadphones.svg');
+}
+
+
+.btn-product05{
+    display: flex;
+    background-color: white;
+    border-radius: 50%;
+    width: 6.5rem;
+    height: 6.5rem;
+    box-shadow: 0 4px 25px #8f8f8f2b;
+    background-image: url('../../assets/greySneakers.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: .4s;
+}
+
+.btn-product05:hover{
+    background-image: url('../../assets/pinkSneakes.svg');
+}
+
