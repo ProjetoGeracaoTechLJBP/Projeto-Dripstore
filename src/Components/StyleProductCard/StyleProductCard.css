@@ -1,0 +1,8 @@
+.Card-StyleProduct{
+    /* width: 100vw; */
+    /* box-sizing: border-box; */
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
