@@ -58,7 +58,7 @@ No passar do tempo implementei alguns efeitos nos cards.
 - Quarta Parte: Produção do componentes HeaderdeLogineCadastro FormLogin da tela de login - Início: 22-07-2024 / Fim: 23-07-2024
 - Quinta Parte: Produção do componente FormCriarLogin- Início: 22-07-2024 / Fim: 23-07-2024
 
-  ## 3.4 - Cronograma Paulo Henrique Carvalho:
+## 3.4 - Cronograma Paulo Henrique Carvalho:
    • Primeira Parte: Produção do componente Carrossel Home-Page - Início: 18-07-2024 / Fim: 23-07-2024;
 
 # 4 - Instalação
