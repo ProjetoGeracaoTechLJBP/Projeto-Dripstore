@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap'); 
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.back_image img {
+    height: 8rem;
+}
+.back_image{
+    background-color: white;
+    box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.103);
+    width: 12rem;
+    height: 12rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+
+}
+.back_image{
+    box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.144);
+}
+.back_image .desconto-absolute{
+    position: relative;
+    bottom: 8.5rem;
+    left: 0px;
+}
+
+.desconto-absolute{
+    text-align: center;
+   background-color: #E7FF86; 
+   width: 6rem;
+   border-radius: 2rem;
+   font-weight: 600;
+   color: #474747;
+}
+
+.cardContainer{
+    background-color: #F9F8FE;
+    margin: 1rem;
+    /* text-align: center; */
+    font-family: 'Inter', sans-serif;
+    transition: 0.3s ease;
+}
+.cardContainer:hover{
+    transform: scale(1.1);
+
+}
+
+h5{
+    color: #8F8F8F;
+    margin-bottom: 0.4rem;
+}
+
+.descValor p{
+    color: #474747;
+    font-size: large;
+}
+.descValor{
+    display:flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+.desconto{
+ font-size: 14px;  
+ text-decoration: line-through; 
+}
+.descricao{
+    margin-bottom: 0.5rem;
+}
+ .descValor .valor{
+    color: black;
+    font-weight: 700;
+}
+/* .cardContainer{
+    
+} */

@@ -63,7 +63,6 @@
 }
 
 
-
 * {
     padding: 0px;
     margin: 0px;
@@ -135,6 +134,37 @@ footer .descricao {
     
 }
 
+.margin > p:hover{
+    transform: scale(1.04);
+    transition: 0.4s ease;
+    cursor: pointer;
+
+}
+
+.link-footer{
+    display: flex;
+    flex-direction: column;
+}
+.link-footer > a{
+    padding-bottom: 1rem;
+
+    color: white;   
+    text-decoration: none;
+    /* background-color: aqua; */
+}
+
+.link-footer > a:hover{
+    transform: scale(1.04);
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+.desc-logoFooter  img:hover{
+    transform: scale(1.06);
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
 .containerFooter p {
     margin-bottom: 0.7rem;
 }
@@ -158,5 +188,4 @@ footer .descricao {
 }
 
 hr {
-    margin-top: 0.5rem;
-}
+    margin-top: 0.5rem;}
