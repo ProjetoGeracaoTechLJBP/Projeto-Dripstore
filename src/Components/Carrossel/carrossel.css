@@ -1,0 +1,53 @@
+
+.carousel-indicators [data-bs-target]  {
+    background-color: #C92071;
+    border-radius: 300px;
+    width: 12px;
+    height: 12px;
+    border-top: 0;
+    border-bottom: 0;
+    z-index: 2;
+    position: relative;
+   
+}
+
+.carousel-control-next {
+    width: 8%;
+} 
+
+.carousel-control-prev {
+    width: 8%;
+}
+
+#botao-slide1 {
+    color: #C92071;
+    background-color: #C92071;
+    border-radius: 90%;
+    width: 1vw;
+    height: 1vw;
+}
+
+#botao-slide2 {
+    color: #C92071;
+    background-color: #C92071;
+    border-radius: 90%;
+    width: 1vw;
+    height: 1vw;
+}
+
+
+#botao-slide3 {
+    color: #C92071;
+    background-color: #C92071;
+    border-radius: 90%;
+    width: 1vw;
+    height: 1vw;
+}
+
+#botao-slide4 {
+    color: #C92071;
+    background-color: #C92071;
+    border-radius: 90%;
+    width: 1vw;
+    height: 1vw;
+}

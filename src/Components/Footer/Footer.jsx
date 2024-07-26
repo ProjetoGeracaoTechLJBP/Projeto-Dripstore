@@ -9,8 +9,8 @@ function Footer() {
         <>
             <footer>
 
-                <div className="container">
-                    <div className="desc-logo">
+                <div className="containerFooter">
+                    <div className="desc-logoFooter">
                         <img className="logo" src={logo} alt="" />
                         <p className="descricao">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. </p>
                         <div className="RedesSocias">
