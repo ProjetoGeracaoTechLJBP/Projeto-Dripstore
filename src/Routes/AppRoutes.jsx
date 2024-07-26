@@ -5,6 +5,7 @@ import ProductList from '../Pages/ProductList'
 import ProductDetail from '../Pages/ProductDetail'
 import CarrinhoPage from "../Pages/CarrinhoPage"
 import Login from '../Pages/Login'
+import CriarLogin from '../Pages/CriarLogin'
 function AppRoutes() {
 
   return (
@@ -17,6 +18,7 @@ function AppRoutes() {
           <Route path='/produtodetail' element={<ProductDetail/>}/>
           <Route path='/carrinho' element={<CarrinhoPage />} />
           <Route path='/login' element={<Login/>}/>
+          <Route path='/criarlogin' element={<CriarLogin/>}/>
           </Route>
         </Routes>
         </BrowserRouter>
