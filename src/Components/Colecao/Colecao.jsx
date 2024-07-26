@@ -57,8 +57,8 @@ function Colecao() {
           </div>
 
           <div className="product">
-          <a href="#" className="btn-product05"> </a>
-          <p className="title-product">Tênis</p>
+            <a href="#" className="btn-product05"> </a>
+            <p className="title-product">Tênis</p>
           </div>
 
         </div>
