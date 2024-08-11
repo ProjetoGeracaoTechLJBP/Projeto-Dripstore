@@ -10,32 +10,32 @@ function Carrossel() {
 
     return (
         <>
-            <div id="carouselExampleIndicators" class="carousel slide">
-                <div class="carousel-indicators">
+            <div id="carouselExampleIndicators" className="carousel slide">
+                <div className="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" id="botao-slide1" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators" id="botao-slide2" data-bs-slide-to="1" aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators" id="botao-slide3" data-bs-slide-to="2" aria-label="Slide 3"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators" id="botao-slide4" data-bs-slide-to="3" aria-label="Slide 4"></button>
                 </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
+                <div className="carousel-inner">
+                    <div className="carousel-item active">
                         <Slider1></Slider1>
                     </div>
-                    <div class="carousel-item">
+                    <div className="carousel-item">
                         <Slider2></Slider2>
                     </div>
-                    <div class="carousel-item">
+                    <div className="carousel-item">
                         <Slider3></Slider3>
                     </div>
-                    <div class="carousel-item">
+                    <div className="carousel-item">
                         <Slider4></Slider4>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                    <span class="visually-hidden">Previous</span>
+                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span className="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                    <span class="visually-hidden">Next</span>
+                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span className="visually-hidden">Next</span>
                 </button>
             </div>
         </>

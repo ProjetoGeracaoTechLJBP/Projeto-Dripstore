@@ -6,6 +6,7 @@ import ProductDetail from '../Pages/ProductDetail'
 import CarrinhoPage from "../Pages/CarrinhoPage"
 import Login from '../Pages/Login'
 import CriarLogin from '../Pages/CriarLogin'
+import Cadastro from "../Pages/Cadastro"
 function AppRoutes() {
 
   return (
@@ -19,6 +20,7 @@ function AppRoutes() {
           <Route path='/carrinho' element={<CarrinhoPage />} />
           <Route path='/login' element={<Login/>}/>
           <Route path='/criarlogin' element={<CriarLogin/>}/>
+          <Route path='/cadastro' element={<Cadastro/>}/>
           </Route>
         </Routes>
         </BrowserRouter>

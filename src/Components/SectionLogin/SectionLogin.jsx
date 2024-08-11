@@ -1,6 +1,7 @@
 import gmail from "../../assets/gmail.png"
 import facebook from "../../assets/Original.png"
 import sapatos from "../../assets/sapatosCriarConta.png"
+import { Link } from 'react-router-dom'
 import "./SectionLogin.css"
 function SectionLogin() {
     return(
@@ -10,7 +11,8 @@ function SectionLogin() {
                 <form >
                     <div className="TitleFormLogin">
                         <h1>Acesse sua conta</h1>
-                        <p>Novo cliente? Então registre-se <a href="#">aqui</a></p>
+                        {/* <p>Novo cliente? Então registre-se <a href="#">aqui</a></p> */}
+                        <p>Novo cliente? Então registre-se <Link to="/cadastro">Aqui</Link> </p>
                     </div>
 
                     <div className="InputLogin">
@@ -40,8 +42,8 @@ function SectionLogin() {
                 </form>
             </div>
             
-            <div className="ImgSapatos">
-                <img src={sapatos} alt="" />
+            <div className="container_ImgSapatos">
+                <img className="ImgSapatos" src={sapatos} alt="" />
             </div>
         </div>
     ) 
