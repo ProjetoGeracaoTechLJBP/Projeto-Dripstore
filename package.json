@@ -25,5 +25,9 @@
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.7",
     "vite": "^5.3.4"
-  }
+  },
+  "description": "- Beatriz Lopes - **Lider**, **Front-end**\r - Jefferson de Oliveira- **Vice-lider**, **Full-Cycle**\r - Levy Pereira - **Back-end**\r - Paulo Henrique Carvalho - **Front-end**",
+  "main": "vite.config.js",
+  "author": "",
+  "license": "ISC"
 }

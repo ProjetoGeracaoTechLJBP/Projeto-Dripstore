@@ -21,80 +21,45 @@ function CriarConta(params) {
                             <div className="form-group">
                                 <InputCadastro
                                     title="Informações pessoais"
-                                    label="Nome Completo*"
+                                    label="Nome*"
                                     placeholder="Insira seu nome"
                                 />
                             </div>
 
                             <div className="form-group">
                                 <InputCadastro
-                                    label="CPF*"
-                                    placeholder="Insira seu CPF"
+                                    label="Sobrenome*"
+                                    type="text"
+                                    placeholder="Insira seu sobrenome"
                                 />
                             </div>
 
                             <div className="form-group">
                                 <InputCadastro
                                     label="Email*"
+                                    type="text"
                                     placeholder="Insira seu email"
                                 />
                             </div>
                             <div className="form-group">
                                 <InputCadastro
-                                    label="Celular*"
+                                    label="Senha*"
+                                    type="password"
                                     placeholder="Insira seu celular"
                                 />
                             </div>
-                        </form>
+                            <div className="checkbox-email">
+                                <input className='ipt-checkbox' type="checkbox" />
+                                <label className='label-checkbox' htmlFor="#">Quero receber por email ofertas e novidades das lojas da Digital Store. A frequência de envios pode variar de acordo com a interação do cliente.</label>
+                            </div>
+                            
+                            <div className="button-criar">
+                                <button className='button-submit' type='submit'>Criar Conta</button>
+                            </div>
+                            </form>
+
                     </div>
 
-                    <div className="form-container">
-
-                        <p className="text-form">Informações de Entrega</p>
-                        <hr className="line-form" />
-
-                        <form className='formulario' action="#" method="post">
-
-                            {/* <label className='text-form' htmlFor="nome-completo">Nome Completo*</label >
-        <input className='form-input' type="text" id="nomeCompleto" name="nome" placeholder='Insira seu nome' required /> */}
-                            <div className="form-group">
-                                <InputCadastro
-                                    label="Endereço"
-                                    placeholder="Insira seu endereço"
-                                />
-                            </div>
-
-                            <div className="form-group">
-                                <InputCadastro
-                                    label="Bairro"
-                                    placeholder="Insira seu bairro"
-                                />
-                            </div>
-
-                            <div className="form-group">
-                                <InputCadastro
-                                    label="Cidade*"
-                                    placeholder="Insira sua cidade"
-                                />
-                            </div>
-                            <div className="form-group">
-                                <InputCadastro
-                                    label="CEP*"
-                                    placeholder="Insira seu CEP"
-                                />
-                            </div>
-                            <div className="form-group">
-                                <InputCadastro
-                                    label="Complemento"
-                                    placeholder="Insira seu complemento"
-                                />
-                            </div>
-                        </form>
-                    </div>
-                <div className="checkbox-email">
-                    <input className='ipt-checkbox' type="checkbox"/>
-                    <label className='label-checkbox' htmlFor="#">Quero receber por email ofertas e novidades das lojas da Digital Store. A frequência de envios pode variar de acordo com a interação do cliente.</label>
-                </div>
                 </div>
 
             </section>
