@@ -21,7 +21,7 @@ function AppRoutes() {
           <Route path='/produtodetail' element={<ProductDetail/>}/>
           <Route path='/carrinho' element={<CarrinhoPage />} />
           <Route path='/login' element={<Login/>}/>
-          <Route path='/meuspedidos' element={<MeusPedidos/>}/>
+          <Route path='/meuspedidos' element={<MeusPedidos/>}/> 
           <Route path='/criarlogin' element={<CriarLogin/>}/>
           <Route path='/cadastro' element={<Cadastro/>}/>
           </Route>

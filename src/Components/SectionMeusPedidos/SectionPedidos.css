@@ -1,0 +1,82 @@
+@import url('../Colecao/colecao.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container-infos{
+    display: flex;
+    gap: 1rem;
+    padding: 80px;
+}
+
+.container-options{
+    width: 23%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
+
+
+.options-list{
+    padding: 0;
+    font-weight: 400;
+}
+
+.options-list li{
+    list-style: none;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.75px;
+}
+
+
+.options-list a{
+    text-decoration: none;
+    color: var(--dark-gray2);
+}
+
+.options-list a:hover{
+    text-decoration: none;
+    color: var(--pink);
+    font-weight: 700;
+}
+
+
+.container-myinfos{
+    width: 61.8%;
+    background-color: white;
+    padding: 1.8rem;
+}
+
+.title-info{
+    letter-spacing: 0.75px;;
+}
+
+.personal-info{
+    padding: 0;
+    font-size: 0.8rem;
+    
+}
+
+.personal-info li{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 0.6rem;
+}
+
+.info-title{
+    color: var(--light-gray);
+    font-weight: 500;
+}
+
+.info-data{
+    color: var(--black);
+    font-weight: 500;
+}

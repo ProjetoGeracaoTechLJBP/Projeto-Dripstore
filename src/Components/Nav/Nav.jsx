@@ -8,7 +8,7 @@ function Nav() {
                 <li><Link to="/" id="link">Home</Link></li>
                 <li><Link to="/produto" id="link">Produto</Link></li>
                 <li><Link to="/produto" id="link">Categorias</Link></li>
-                <li><Link to="/meuspedidos" id="link">Meus Pedidos</Link></li>
+                <li className="meus_pedidos"><Link to="/meuspedidos" id="link">Meus Pedidos</Link></li>
             </section>
         </>
     )

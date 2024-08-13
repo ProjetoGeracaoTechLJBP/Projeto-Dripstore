@@ -32,3 +32,8 @@
     padding-bottom: 3px;
     transition: 0.1s;
 }
+
+#link:active{
+    color: #C92071;
+
+}
