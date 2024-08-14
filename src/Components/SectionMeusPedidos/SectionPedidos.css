@@ -47,6 +47,10 @@
     font-weight: 700;
 }
 
+.minhas_informacoes{
+    color: var(--pink);
+}
+
 
 .container-myinfos{
     width: 61.8%;
