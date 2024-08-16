@@ -5,7 +5,7 @@ function InputCadastro(props) {
         <>
 
             <label className='text-form label' htmlFor="nome-completo">{props.label}</label >
-            <input className='form-input' type={props.type} id="nomeCompleto" name="nome" placeholder={props.placeholder} required />
+            <input className='form-input' type={props.type} name={props.name} placeholder={props.placeholder} required />
         </>
     )
 }
