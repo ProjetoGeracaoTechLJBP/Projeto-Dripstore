@@ -34,7 +34,7 @@ async function loginVerify(data) {
                     response = "false"
                 }
             });
-        console.log(response)
+        // console.log(response)
         return response
     } catch (error) {
         console.log("[ERROR]: ", error);

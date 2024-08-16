@@ -4,10 +4,10 @@ async function createUser (data) {
     try {
         const users = await User.create(data);
         console.log('estou aqui');
-        return true 
+        return users 
     } catch(err) {
         const error =console.log(`${err}`);  
-        return false
+        
     }
 };
 

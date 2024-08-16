@@ -63,7 +63,7 @@ const controllerCreateUser = async (req, res) => {
             res.status(400).send({ error: 'Ocorreu um erro ao se cadastrar!/usuário com email já existe' })
         }
         else {
-            res.status(200).send('Inserção feita')
+            res.status(200).json(createdUser)
         }
     }
     catch (error) {
@@ -83,7 +83,12 @@ const controllerLogin = async (req, res) => {
     const resultLoginVerify = await loginVerify(req.body)
     console.log(resultLoginVerify)
     if (resultLoginVerify === "true") {
-        res.status(200).send({ message: "Seja Bem-vindo de volta!!!" })
+        // res.status(200).send({ message: "Seja Bem-vindo de volta!!!" })
+        const user = await readUser(req.body.email)
+        res.status(200).json(user)
+        
+
+        res.status(200).json()
     } else if (resultLoginVerify === "false") {
         res.status(401).send({ error: "Senha ou Email estão incorretos" })
     } else {
