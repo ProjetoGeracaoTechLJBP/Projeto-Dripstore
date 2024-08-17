@@ -1,15 +1,17 @@
 import './CriarConta.css';
+import { useNavigate } from 'react-router-dom';
 import InputCadastro from '../../PropsPages/InputCadastro'
 import { Link } from 'react-router-dom';
 
 
 function CriarConta() {
+    const navigate = useNavigate();
         const handleSubmit = (event) => {
             event.preventDefault()
             
             const formData = new FormData(event.target);
             const data = Object.fromEntries(formData.entries())
-            fetch('http://localhost:3000/api/users', {
+            fetch('http://localhost:3000/api/registeruser', {
                 body: JSON.stringify(data),
                 method: 'POST',
                 headers: {
@@ -18,7 +20,14 @@ function CriarConta() {
                 }
 
             })    
-            .then(response => response.json())                      
+            .then(response => response.json())    
+            .then((data) => {
+                console.log(data);
+                navigate('/homeuser');         
+            })
+            .catch(error =>{
+                console.error(error)
+            })                
         }
     return (
         <>
@@ -67,17 +76,32 @@ function CriarConta() {
                                     name="password"
                                 />
                             </div>
+                            <div className="form-group">
+                                <InputCadastro
+                                    label="CPF*"
+                                    type="text"
+                                    placeholder="Insira seu cpf"
+                                    name="cpf"
+                                />
+                            </div>
+                            <div className="form-group">
+                                <InputCadastro
+                                    label="Celular*"
+                                    type="text"
+                                    placeholder="Insira seu celular"
+                                    name="celular"
+                                />
+                            </div>
                             <div className="checkbox-email">
                                 <input className='ipt-checkbox' type="checkbox" />
                                 <label className='label-checkbox' htmlFor="#">Quero receber por email ofertas e novidades das lojas da Digital Store. A frequência de envios pode variar de acordo com a interação do cliente.</label>
                             </div>
 
                             <div className="button-criar">
-                                <button className='button-submit'>Criar Conta</button>
-
+                                <button className='button-submit'>Criar conta</button>
                             </div>
                         </form>
-
+                      
                     </div>
 
                 </div>
