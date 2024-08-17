@@ -1,14 +1,17 @@
 //const { User } = require('../models');
 // const { INSERT } = require('sequelize/lib/query-types');
 // const { User } = require('../models/user.js');
-const { emailValidation } = require('../service/userValidator.js')
-const { hashUser } = require('../service/userHash.js')
-const { createUser } = require('../repository/createUser.js')
-const { loginVerify } = require('../service/formVerification.js')
-const {uptadeUser} = require('../repository/updateUser.js')
-const {deleteUser} = require('../repository/deleteUser.js')
-const {readUser} = require('../repository/readUser.js')
-const {getAllUsers} = require('../repository/getAllUsers.js')
+const { emailValidation } = require('../service/userValidator.js');
+const { hashUser } = require('../service/userHash.js');
+const { createUser } = require('../repository/createUser.js');
+const { loginVerify } = require('../service/formVerification.js');
+const {uptadeUser} = require('../repository/updateUser.js');
+const {deleteUser} = require('../repository/deleteUser.js');
+const {readUser} = require('../repository/readUser.js');
+const {getAllUsers} = require('../repository/getAllUsers.js');
+const { generationToken } = require('../service/serviceToken.js');
+const { authorizationToken } = require("../middleware/authorizationToken.js");
+
 
 const controllerGetUser = async(req,res) => {
     const isEmailValid = emailValidation(req.body.email)
@@ -81,14 +84,21 @@ const controllerLogin = async (req, res) => {
     }
 
     const resultLoginVerify = await loginVerify(req.body)
-    console.log(resultLoginVerify)
+    // console.log(resultLoginVerify)
     if (resultLoginVerify === "true") {
         // res.status(200).send({ message: "Seja Bem-vindo de volta!!!" })
         const user = await readUser(req.body.email)
-        res.status(200).json(user)
+        try {
+            const token1 = generationToken(req.body.email)
+            res.status(200).json({
+                user: user,
+                token: token1
+            })
+        } catch (error) {
+            console.error("Error na geração do Token: ", error)
+            return res.status(500).send({error: "Error no servidor na criação do token."})
+        }
         
-
-        res.status(200).json()
     } else if (resultLoginVerify === "false") {
         res.status(401).send({ error: "Senha ou Email estão incorretos" })
     } else {
@@ -170,6 +180,26 @@ const controllerAllUsers = async (req, res) => {
     }
 }
 
+const routePrivate = async (req, res) => {
+    const authHeader = req.headers.authorization;
+    // console.log(authHeader);
+
+    if (authHeader == null) {
+        return res.status(400).send({
+            message: "O token não pode ser vazio!!!\nVocê precisa de uma Autorização."
+        })
+    } 
+
+    const isValidToken = authorizationToken(authHeader)
+
+    if (isValidToken) {
+        res.status(200).json()
+    } else {
+        res.status(401).json()
+    }
+
+} 
+
 module.exports = {
-    controllerCreateUser, controllerLogin,controllerUpdate,controlerDelete,controllerGetUser,controllerAllUsers
+    controllerCreateUser, controllerLogin,controllerUpdate,controlerDelete,controllerGetUser,controllerAllUsers,routePrivate
 }
