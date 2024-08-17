@@ -5,7 +5,7 @@
 //const { hashUser } = require('../service/userHash.js')
 const { createCategory } = require('../repository/createCategory.js')
 //const { loginVerify } = require('../service/formVerification.js')
-const { updateCategory} = require('../repository/updateCategory.js')
+const { uptadeCategory} = require('../repository/updateCategory.js')
 const {deleteCategory} = require('../repository/deleteCategory.js')
 const {readCategory} = require('../repository/readCategory.js')
 const {getAllCategory} = require('../repository/getAllCategory.js')
@@ -47,7 +47,7 @@ const controllerUpdate = async (req, res) => {
 
     try{
         
-        const update = await updateCategory(req.body)
+        const update = await uptadeCategory(req.body)
 
         if(!update) {
             return res.status(404).send({ error: "Categoria não encontrado" });
@@ -91,7 +91,7 @@ const controllerAllCategory = async (req, res) => {
     try{
         const all = await getAllCategory()
 
-        if(!allUsers) {
+        if(!all) {
             res.status(404).send('Categoria não encontrado')
         }
         else{
