@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    
+}
+
+#Corpo {
+    background-color: #F9F8FE;
+    margin-left: 6rem;
+}
+
+#Sect-Nav {
+    display: flex;
+    align-items: end;
+    margin-left: 0.5rem;
+    width: 40rem;
+    font-size: 13px;
+    color: #474747;
+}
+
+#Sect-main {
+    display: flex;
+    align-items: start;
+}
+
+
+#Sect-TenisAndInformation {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 30rem;
+}
+
+#Part-Text > h1 {
+    font-weight: bolder;
+    font-size: 1.8rem;
+}
+
+
+#Part-Text > P {
+    font-size: 13px;
+    font-weight: normal;
+    color: #666666;
+}
+
+.carousel {
+    width: 100vw;
+    height: 76.67vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel .carousel-indicators button {
+    display: none;
+}
+
+.carousel-item-row{
+    width: 100%;
+    height: 76.67vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel .carousel-inner .imagem-ilustrativa {
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.imagem-ilustrativa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#carouselExampleDark {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 22px;
+    width: 35rem;
+    height: 28rem;
+}
+
+.backColor-carousel { background-color: #E2E3FF; }
+
+.imagem-ilustrativa > img {
+    width: 25rem;
+}
+
+
+#Information-Product {
+    margin: 20px;
+    width: 29rem;
+    height: 30rem;
+}
+
+#star-Container {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+#btn-star {
+    margin-left: 5px;
+    width: 4rem;
+    height: 1.3rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #F6AA1C;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#paragraph-avaliacao {
+    font-size: 12px;
+    font-weight: 500;
+    margin: 3px;
+    color: #8F8F8F;
+}
+
+#Part-Price {
+    display: flex;
+    height: 2rem;
+    margin-bottom: 20px;
+}
+
+#Cifrao {
+    display: flex;
+}
+
+#Cifrao img  {
+    width: 6rem;
+    color: black;
+}
+
+#Mine-Value p {
+    margin-left: 5px;
+    height: 30px;
+    display: flex;
+    align-items: end;
+    font-size: 12px;
+    text-decoration: line-through;
+    color: #CCCCCC;
+}
+
+#Preco-Value {
+    font-size: 2rem;
+}
+
+#paragraph-Description {
+    margin-bottom: 2px;
+    color: #8F8F8F;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+#paragraph-DescriptionProduto {
+    font-size: 14px;
+}
+
+#Text-Tamanho {
+    margin-bottom: 2px;
+    color: #8F8F8F;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.mudar-de-cor{
+    background-color: #C92071;
+    color: white;
+    border: #C92071;
+}
+
+.btn-num-color {
+    background-color: white;
+    border: 1px solid #8F8F8F;
+}
+
+#btn-Number button {
+    margin-right: 7px;
+    padding: 5px;
+    width: 2.3rem;
+    height: 2.3rem;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+#btn-Number button:hover {
+    background-color: #C92071;
+    color: white;
+    border: #C92071;
+    transition: 0.6s ;
+}
+
+#Text-Color {
+    margin-bottom: 2px;
+    color: #8F8F8F;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#btn-Color button {
+    margin-right: 7px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+}
+
+#btn-Color > #btn-blue {
+    background-color: #6FEEFF;
+    border: none;
+}
+
+#btn-Color > #btn-red {
+    background-color: #FF6969;
+    border: 0px solid #FF6969;
+}
+
+
+#btn-Color > #btn-gray {
+    background-color: #5E5E5E;
+    border: none;
+}
+
+#btn-Color > #btn-purple {
+    background-color: #6D70B7;
+    border-width: 0;
+}
+
+
+
+#btn-Compra {
+    margin-top: 8px;
+    background-color: #FFB31F;
+    width: 10rem;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 0.4rem;
+}
+
+#btn-Compra:hover {
+    background-color: #CF8900;
+    transition: 0.5s;
+}
+
+#Sect-Cards {
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+#Sect-Cards > div {
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+#Sect-Cards > #cards > button {
+    width: 5rem;
+    height: 4rem;
+    margin: 0.3rem 2rem 2rem 0.4rem;
+    border: none;
+    
+}
+
+.card-1 {
+    background-color: #E2E3FF;
+    border-radius: 5px;
+}
+
+.card-2 {
+    background-color: #FFE8BC;
+    border-radius: 5px;
+}
+
+.card-3 {
+    background-color: #FFC0BC;
+    border-radius: 5px;
+}
+
+.card-4 {
+    background-color: #DEC699;
+    border-radius: 5px;
+}
+
+.card-5 {
+    background-color: #E8DFCF;
+    border-radius: 5px;
+}
+
+#cards > button > img {
+    width: 3.5rem;
+}

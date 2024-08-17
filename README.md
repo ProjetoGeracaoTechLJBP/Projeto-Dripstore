@@ -67,5 +67,3 @@ No passar do tempo implementei alguns efeitos nos cards.
   2. Instale o npm (`npm install`)
   3. Inicie o servidor e abra o link oferecido (`npm run dev`)
   
-
-<!-- Vai no terminal e coloca npm install, lembrando que tem que estar no caminho do projeto. -->
