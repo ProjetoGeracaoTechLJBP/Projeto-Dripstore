@@ -50,7 +50,6 @@ function SectionLogin() {
                 <form onSubmit={handleLogin} >
                     <div className="TitleFormLogin">
                         <h1>Acesse sua conta</h1>
-                        {/* <p>Novo cliente? Então registre-se <a href="#">aqui</a></p> */}
                         <p>Novo cliente? Então registre-se <Link to="/cadastro">Aqui</Link> </p>
                     </div>
 
