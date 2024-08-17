@@ -17,7 +17,7 @@ const PORT = 3000;
 
 
 app.listen(PORT,  async () => {
-    await createDataBase();
+    //await createDataBase();
     // undoMigrations()
     runMigrations();
     console.log(`O servidor está rodando na porta ${PORT}`);

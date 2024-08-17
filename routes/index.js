@@ -15,4 +15,14 @@ router.put('/updateuser', userController.controllerUpdate)
 
 router.delete('/deleteuser', userController.controlerDelete)
 
+const CategoryController = require('../controllers/categoryControll')
+
+router.get('/allcategory',CategoryController.controllerAllCategory)
+
+router.post('/registercategory', CategoryController.controllerCreateCategory)
+
+router.put('/updatecategory', CategoryController.controllerUpdate)
+
+router.delete('/deletecategory', CategoryController.controlerDelete)
+
 module.exports = router;
