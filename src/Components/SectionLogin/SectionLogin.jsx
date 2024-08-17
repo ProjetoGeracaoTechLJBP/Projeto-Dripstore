@@ -24,7 +24,6 @@ function SectionLogin() {
                     'Content-Type': 'application/json',
                 }
             });
-
             // Vê se deu certo 
             if (!response.ok) {
                 throw new Error(`Ocorreu erro na requisição: ${response.status}`);
