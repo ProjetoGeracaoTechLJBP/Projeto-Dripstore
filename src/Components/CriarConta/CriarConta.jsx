@@ -2,6 +2,7 @@ import './CriarConta.css';
 import { useNavigate } from 'react-router-dom';
 import InputCadastro from '../../PropsPages/InputCadastro'
 import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
 
 
 function CriarConta() {
@@ -34,6 +35,37 @@ function CriarConta() {
                 console.error(error)
             })                
         }
+
+        //Customizar input do CPF
+
+            useEffect(() => {
+                const input = document.getElementById('inputcpf')
+            input.addEventListener('keypress', () => {
+                let inputLength = input.value.length
+                    if (inputLength === 3 || inputLength === 7) {
+                        input.value+='.'
+                    } else if (inputLength === 11){
+                        input.value+='-'
+                    }
+                })
+            })     
+
+        //Customizar número
+        useEffect(() => {
+            const input = document.getElementById('inputcll')
+        input.addEventListener('keypress', () => {
+            let inputLength = input.value.length
+                if (inputLength === 0){
+                    input.value+='('
+                } else if (inputLength === 3){
+                    input.value+=') '
+                } else if(inputLength === 10){
+                    input.value+='-'
+                }
+            })
+        })     
+
+
     return (
         <>
             <section className="container_title-and-forms">
@@ -87,6 +119,8 @@ function CriarConta() {
                                     type="text"
                                     placeholder="Insira seu cpf"
                                     name="cpf"
+                                    id='inputcpf'
+                                    maxLength='14'
                                 />
                             </div>
                             <div className="form-group">
@@ -95,6 +129,8 @@ function CriarConta() {
                                     type="text"
                                     placeholder="Insira seu celular"
                                     name="celular"
+                                    id='inputcll'
+                                    maxLength='15'
                                 />
                             </div>
                             <div className="checkbox-email">
