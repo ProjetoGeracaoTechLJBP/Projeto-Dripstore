@@ -10,6 +10,8 @@ try{
         where: {name: queryName} 
     }
 )
+console.log(update);
+
 return update
 }
 catch(error) {
