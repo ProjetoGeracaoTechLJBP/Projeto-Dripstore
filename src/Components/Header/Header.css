@@ -89,3 +89,13 @@
     transform: scale(1.04);
     transition: 0.3s ease;
 }
+
+.acc-infos{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: var(--dark-grey2);
+    font-weight: 500;
+    gap: 0.5rem;
+}

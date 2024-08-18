@@ -4,7 +4,7 @@ import Footer from '../Components/Footer/Footer'
 import SectionPedidos from "../Components/SectionMeusPedidos/SectionPedidos"
 function meusPedidos(params) {
     return(    <>
-        <Header />
+        <Header/>
         <Nav/>
         <SectionPedidos />
         <Footer />

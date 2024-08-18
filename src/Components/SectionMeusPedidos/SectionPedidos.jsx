@@ -1,25 +1,15 @@
 import { useEffect, useState } from 'react';
+import infoUser from "../../LocalStorageDatas/users"
 import './SectionPedidos.css';
 
 function MeusPedidos() {
-    const [usuarios, setUsuario] = useState([]);
 
-    useEffect(() => {
-        fetch('http://localhost:3000/api/users', {
-            headers: {
-                'Content-type': 'application/json'
-            },
-            method: 'GET',
-        })
-        .then(res => res.json())
-        .then(data => {
-            console.log('Dados recebidos:', data);
-            setUsuario(data);  // Atualize o estado com os dados recebidos
-        })
-        .catch(error => console.error('Erro ao buscar dados:', error));
-    }, []);
+    const user = infoUser()
+    console.log(user);
 
-    const usuario = usuarios[0] || {}; 
+    if (!user) {
+        return <div>Loading...</div>;
+    }
 
     return (
         <>
@@ -43,19 +33,19 @@ function MeusPedidos() {
                         <ul className="personal-info">
                             <li>
                                 <p className='info-title'>Nome:</p>
-                                <p className='info-data'>{usuario.firstname}{usuario.surname}</p>
+                                <p className='info-data'>{user.firstname} {user.surname}</p>
                             </li>
                             <li>
                                 <p className='info-title'>CPF:</p>
-                                <p className='info-data'>{usuario.cpf}</p>
+                                <p className='info-data'>{user.cpf}</p>
                             </li>
                             <li>
                                 <p className='info-title'>Email:</p>
-                                <p className='info-data'>{usuario.email}</p>
+                                <p className='info-data'>{user.email}</p>
                             </li>
                             <li>
                                 <p className='info-title'>Celular:</p>
-                                <p className='info-data'>{usuario.celular}</p>
+                                <p className='info-data'>{user.celular}</p>
                             </li>
                         </ul>
                     </div>
