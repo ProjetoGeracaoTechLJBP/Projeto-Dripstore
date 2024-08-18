@@ -7,7 +7,6 @@ async function createUser (data) {
         return users 
     } catch(err) {
         const error =console.log(`${err}`);  
-        
     }
 };
 
