@@ -193,9 +193,9 @@ const routePrivate = async (req, res) => {
     const isValidToken = authorizationToken(authHeader)
 
     if (isValidToken) {
-        res.status(200).json()
+        res.status(200).json('Rota acessada via token')
     } else {
-        res.status(401).json()
+        res.status(401).json('Token inválido')
     }
 
 } 
