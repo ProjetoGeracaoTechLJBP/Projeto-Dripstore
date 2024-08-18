@@ -23,7 +23,12 @@ function CriarConta() {
             .then(response => response.json())    
             .then((data) => {
                 console.log(data);
-                navigate('/homeuser');         
+
+            if (data.token) {
+                localStorage.setItem('token', data.token)
+                localStorage.setItem('user', JSON.stringify(data.user));
+            }
+                navigate('/login');         
             })
             .catch(error =>{
                 console.error(error)
