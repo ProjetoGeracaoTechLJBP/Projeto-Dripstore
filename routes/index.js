@@ -25,4 +25,14 @@ router.put('/updatecategory', CategoryController.controllerUpdate)
 
 router.delete('/deletecategory', CategoryController.controlerDelete)
 
+const ProductController = require('../controllers/productControll')
+
+router.get('/allproduct', ProductController.controllerAllProduct)
+
+router.post('/registerproduct', ProductController.controllerCreateProduct)
+
+router.put('/updateproduct', ProductController.controllerUpdate)
+
+router.delete('/deleteproduct', ProductController.controlerDelete)
+
 module.exports = router;
