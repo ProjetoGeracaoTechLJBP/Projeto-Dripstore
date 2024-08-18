@@ -33,11 +33,14 @@ function SectionLogin() {
             const data = await response.json();
             console.log('API: ', data);
 
-            // Vai armazenar os dados
-            localStorage.setItem('user', JSON.stringify(data));
-
+            if (data.token) {
+                localStorage.setItem('token', data.token)
+                localStorage.setItem('user', JSON.stringify(data.user));                
+            } else {
+                throw new Error('O token não foi retornado pela API')
+            }
             // Vai pra Home
-            navigate('/homeuser'); 
+            navigate('/'); 
 
         } catch (error) {
             console.error('Erro na requisição:', error);
