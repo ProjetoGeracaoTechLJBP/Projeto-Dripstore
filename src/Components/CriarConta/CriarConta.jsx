@@ -38,8 +38,6 @@ function CriarConta() {
     })
 
     const handleSubmit = (event) => {
-
-
         
         event.preventDefault()
         
