@@ -42,7 +42,7 @@ function Header() {
     } else {
         conteudo = (
             <>
-                <Link to="/criarLogin"><div id='Register'><a href="#">Cadastre-se</a></div></Link>
+                <Link to="/cadastro"><div id='Register'><a href="#">Cadastre-se</a></div></Link>
                 <Link to="/login"><button id='Btn-Enter'><a href="#">Entrar</a></button></Link>
             </>
         )

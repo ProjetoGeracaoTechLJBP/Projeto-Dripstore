@@ -11,7 +11,9 @@ function MeusPedidos() {
         return <div>Loading...</div>;
     }
 
+
     return (
+        
         <>
             <section className="container-infos">
                 <div className="container-options">
@@ -44,7 +46,9 @@ function MeusPedidos() {
                                 <p className='info-data'>{user.email}</p>
                             </li>
                             <li>
-                                <p className='info-title'>Celular:</p>
+                                <p
+                                id = 'info-cll'
+                                className='info-title'>Celular:</p>
                                 <p className='info-data'>{user.celular}</p>
                             </li>
                         </ul>
